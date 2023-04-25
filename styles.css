@@ -6,7 +6,9 @@ body{
     font-size: 20px;
 
 }
-
+p{
+    line-height: 2;
+}
 h1{
     margin-top: 30px;
     margin-bottom: 0px;
@@ -25,10 +27,12 @@ h2{
     font-size: 25px;
     color: #66BFBF;
     font-weight: normal;
+    margin: 50px auto;
 }
 
 h3{
     color: #11999E;
+    text-align: center;
 }
 
 a{
@@ -73,7 +77,7 @@ a{
     
 }
 .my-img{
-    padding-top: 20px;
+    margin-top: 50px;
     border-radius: 100%;
 }
 
@@ -85,23 +89,24 @@ a{
 }
 .skill-img-1{
     width: 25%;
-    float: left;
+    /* float: left; */
     margin-right: 30px;
     
 }
 .skill-img-2{
     width: 25%;
-    float: right;
+    /* float: right; */
     margin-left: 10px;
 }
 .skill-img-3{
     width: 25%;
-    float: left;
+    /* float: left; */
     margin-right: 30px;
 }
 
 .line{
     width: 5%;
+    margin: 100px auto;
     border-style: dotted none none none;
     border-width: 5px;
     border-color: grey;
@@ -110,7 +115,9 @@ a{
 .talk{
     margin: 50px;
 }
-
+/* .touch{
+    margin-top: 50px;
+} */
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -137,6 +144,10 @@ a{
     background-image: linear-gradient(to bottom, #30e3cb, #00fc54);
     text-decoration: none;
 }
+
+.skills-heading{
+    margin-top: 50px;
+}
 /* 
 .p1{
     clear: left;
@@ -152,7 +163,7 @@ a{
 
 
 .middle-container{
-    background-color: #FFF5E4;
+    background-color: #FFF5E9;
     padding-bottom: 50px;
 }
 .bottom-container{
@@ -163,7 +174,14 @@ a{
 .footer-link{
     padding: 0 75px;
     color: crimson;
+    text-decoration: none;
+    
+}
+.footer-link:hover{
+    color: palevioletred;
 }
 .rights{
     color: grey;
+    padding-top: 30px;
+    font-size: 0.75rem;
 }
